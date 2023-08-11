@@ -1116,6 +1116,7 @@ svg {
   border: 1px solid black;
   padding: 0 2px;
   box-shadow: 2px 2px 0 #efd81d;
+  transition: all 0.3s;
 }
 
 .html {
@@ -1125,6 +1126,7 @@ svg {
   border: 1px solid black;
   padding: 0 2px;
   box-shadow: 2px 2px 0 #dd4b25;
+  transition: all 0.3s;
 }
 
 .css {
@@ -1134,6 +1136,7 @@ svg {
   border: 1px solid black;
   padding: 0 2px;
   box-shadow: 2px 2px 0 #254bdd;
+  transition: all 0.3s;
 }
 
 .mongodb {
@@ -1143,6 +1146,7 @@ svg {
   border: 1px solid black;
   padding: 0 2px;
   box-shadow: 2px 2px 0 #118d4d;
+  transition: all 0.3s;
 }
 
 .react {
@@ -1152,6 +1156,7 @@ svg {
   border: 1px solid black;
   padding: 0 2px;
   box-shadow: 2px 2px 0 #5ed3f3;
+  transition: all 0.3s;
 }
 
 .vscode {
@@ -1161,6 +1166,7 @@ svg {
   border: 1px solid black;
   padding: 0 2px;
   box-shadow: 2px 2px 0 #2e7db5;
+  transition: all 0.3s;
 }
 
 .nodejs {
@@ -1170,6 +1176,7 @@ svg {
   border: 1px solid black;
   padding: 0 2px;
   box-shadow: 2px 2px 0 #8cbf3d;
+  transition: all 0.3s;
 }
 
 .sass {
@@ -1179,6 +1186,7 @@ svg {
   border: 1px solid black;
   padding: 0 2px;
   box-shadow: 2px 2px 0 #c76494;
+  transition: all 0.3s;
 }
 
 .wordpress {
@@ -1188,6 +1196,7 @@ svg {
   border: 1px solid black;
   padding: 0 2px;
   box-shadow: 2px 2px 0 #30353a;
+  transition: all 0.3s;
 }
 
 .lit-html {
@@ -1197,6 +1206,7 @@ svg {
   border: 1px solid black;
   padding: 0 2px;
   box-shadow: 2px 2px 0 #324fff;
+  transition: all 0.3s;
 }
 
 .pagejs {
@@ -1206,6 +1216,7 @@ svg {
   border: 1px solid black;
   padding: 0 2px;
   box-shadow: 2px 2px 0 #e7e7e7;
+  transition: all 0.3s;
 }
 
 .typescript {
@@ -1215,6 +1226,7 @@ svg {
   border: 1px solid black;
   padding: 0 2px;
   box-shadow: 2px 2px 0 #2d79c7;
+  transition: all 0.3s;
 }
 
 .javascript:hover {
