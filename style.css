@@ -60,7 +60,7 @@ body::after {
     url('./images/logos/html-logo.png') url('./images/logos/js-logo.png') url('./images/logos/mongo-logo.png')
     url('./images/logos/node-logo.png') url('./images/logos/react-logo.png') url('./images/logos/vscode-logo.png')
     url('./images/logos/chai-logo.png') url('./images/logos/jQuery-logo.png') url('./images/logos/mocha-logo.png')
-    url('./images/logos/sass-logo.png') url('./images/logos/typescript-logo.png');
+    url('./images/logos/sass-logo.png') url('./images/logos/typescript-logo.png') url('./images/logos/express-logo.png');
 }
 
 ::selection {
@@ -954,11 +954,19 @@ svg {
   cursor: default;
 }
 
+.education {
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .education-card {
   position: relative;
   background-color: #ffffff2d;
   border: 1px solid #a3c4c2;
-  width: 100%;
+  width: 80%;
   display: block;
   border-radius: 10px;
   overflow: hidden;
