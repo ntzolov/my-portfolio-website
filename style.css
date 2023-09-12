@@ -954,19 +954,11 @@ svg {
   cursor: default;
 }
 
-.education {
-  display: flex;
-  flex-direction:column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
 .education-card {
   position: relative;
   background-color: #ffffff2d;
   border: 1px solid #a3c4c2;
-  width: 80%;
+  width: 100%;
   display: block;
   border-radius: 10px;
   overflow: hidden;
