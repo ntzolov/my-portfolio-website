@@ -1,14 +1,14 @@
 window.addEventListener('load', myFunc);
 
 function myFunc() {
-  let timeLeft = 20;
+  let timeLeft = 14;
   (function countdown() {
-    document.getElementById('seconds').textContent = String(`Content in ${timeLeft}s`);
+    // document.getElementById('seconds').textContent = String(`Content in ${timeLeft}s`);
     if (timeLeft > 0) {
       setTimeout(countdown, 1000);
-      setTimeout(hideTimer, 20000);
-      setTimeout(colorButtons, 20000);
-      setTimeout(showButtons, 20000);
+      setTimeout(hideTimer, 14000);
+      // setTimeout(colorButtons, 20000);
+      // setTimeout(showButtons, 20000);
     }
     timeLeft--;
   })();
@@ -18,26 +18,26 @@ function myFunc() {
     timer.style.opacity = 0;
   }
 
-  function colorButtons() {
-    document.getElementById('projects-buttton').classList.add('projects-coloring');
-    document.querySelector('.flex-top-item-1').classList.add('projects-coloring');
+  // function colorButtons() {
+  //   document.getElementById('projects-buttton').classList.add('projects-coloring');
+  //   document.querySelector('.flex-top-item-1').classList.add('projects-coloring');
 
-    document.getElementById('education-button').classList.add('education-coloring');
-    document.querySelector('.flex-bottom-item-1').classList.add('education-coloring');
+  //   document.getElementById('education-button').classList.add('education-coloring');
+  //   document.querySelector('.flex-bottom-item-1').classList.add('education-coloring');
 
-    document.getElementById('skills-button').classList.add('skills-coloring');
-    document.querySelector('.flex-top-item-3').classList.add('skills-coloring');
+  //   document.getElementById('skills-button').classList.add('skills-coloring');
+  //   document.querySelector('.flex-top-item-3').classList.add('skills-coloring');
 
-    document.getElementById('contact-me-button').classList.add('contact-me-coloring');
-    document.querySelector('.flex-bottom-item-3').classList.add('contact-me-coloring');
-  }
+  //   document.getElementById('contact-me-button').classList.add('contact-me-coloring');
+  //   document.querySelector('.flex-bottom-item-3').classList.add('contact-me-coloring');
+  // }
 
-  function showButtons() {
-    document.getElementById('projects-buttton').style.pointerEvents = 'initial';
-    document.getElementById('education-button').style.pointerEvents = 'initial';
-    document.getElementById('skills-button').style.pointerEvents = 'initial';
-    document.getElementById('contact-me-button').style.pointerEvents = 'initial';
-  }
+  // function showButtons() {
+  //   document.getElementById('projects-buttton').style.pointerEvents = 'initial';
+  //   document.getElementById('education-button').style.pointerEvents = 'initial';
+  //   document.getElementById('skills-button').style.pointerEvents = 'initial';
+  //   document.getElementById('contact-me-button').style.pointerEvents = 'initial';
+  // }
 
   document.getElementById('skip').addEventListener('click', (e) => {
     e.preventDefault();
@@ -62,21 +62,21 @@ function myFunc() {
       el.style.animationDelay = '0s';
     });
 
-    document.getElementById('projects-buttton').style.pointerEvents = 'initial';
-    document.getElementById('projects-buttton').classList.add('projects-coloring');
-    document.querySelector('.flex-top-item-1').classList.add('projects-coloring');
+    // document.getElementById('projects-buttton').style.pointerEvents = 'initial';
+    // document.getElementById('projects-buttton').classList.add('projects-coloring');
+    // document.querySelector('.flex-top-item-1').classList.add('projects-coloring');
 
-    document.getElementById('education-button').style.pointerEvents = 'initial';
-    document.getElementById('education-button').classList.add('education-coloring');
-    document.querySelector('.flex-bottom-item-1').classList.add('education-coloring');
+    // document.getElementById('education-button').style.pointerEvents = 'initial';
+    // document.getElementById('education-button').classList.add('education-coloring');
+    // document.querySelector('.flex-bottom-item-1').classList.add('education-coloring');
 
-    document.getElementById('skills-button').style.pointerEvents = 'initial';
-    document.getElementById('skills-button').classList.add('skills-coloring');
-    document.querySelector('.flex-top-item-3').classList.add('skills-coloring');
+    // document.getElementById('skills-button').style.pointerEvents = 'initial';
+    // document.getElementById('skills-button').classList.add('skills-coloring');
+    // document.querySelector('.flex-top-item-3').classList.add('skills-coloring');
 
-    document.getElementById('contact-me-button').style.pointerEvents = 'initial';
-    document.getElementById('contact-me-button').classList.add('contact-me-coloring');
-    document.querySelector('.flex-bottom-item-3').classList.add('contact-me-coloring');
+    // document.getElementById('contact-me-button').style.pointerEvents = 'initial';
+    // document.getElementById('contact-me-button').classList.add('contact-me-coloring');
+    // document.querySelector('.flex-bottom-item-3').classList.add('contact-me-coloring');
 
     hideTimer();
   });

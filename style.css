@@ -155,7 +155,7 @@ svg {
   z-index: 1;
 }
 
-#projects-buttton {
+/* #projects-buttton {
   pointer-events: none;
 }
 
@@ -169,7 +169,7 @@ svg {
 
 #contact-me-button {
   pointer-events: none;
-}
+}  */
 
 /* MAIN TOP CONTAINER */
 .container-flex-top {
@@ -187,7 +187,7 @@ svg {
   align-items: center;
   width: 10%;
   height: 100%;
-  background-color: #979797;
+  background-color: #8a9a5b;
   border-left: 1px solid black;
   z-index: 1;
 }
@@ -199,12 +199,12 @@ svg {
   align-items: center;
   width: 80%;
   height: 100%;
-  background-color: #979797;
+  background-color: #8a9a5b;
   border-right: 1px solid black;
   z-index: 1;
 }
 
-.projects-coloring {
+/* .projects-coloring {
   animation-name: projects;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
@@ -219,7 +219,7 @@ svg {
   100% {
     background-color: #8a9a5b;
   }
-}
+} */
 
 .flex-top-item-2:hover #projects {
   font-size: 1.5rem !important;
@@ -236,7 +236,7 @@ svg {
   align-items: center;
   width: 10%;
   height: 100%;
-  background-color: #979797;
+  background-color: #db6b67;
   border-right: 1px solid black;
   z-index: 1;
 }
@@ -257,13 +257,13 @@ svg {
   align-items: center;
   width: 10%;
   height: 100%;
-  background-color: #979797;
+  background-color: #78a5a3;
   border-top: 1px solid black;
   border-left: 1px solid black;
   z-index: 1;
 }
 
-.education-coloring {
+/* .education-coloring {
   animation-name: education;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
@@ -278,7 +278,7 @@ svg {
   100% {
     background-color: #78a5a3;
   }
-}
+} */
 
 .flex-middle-item-1:hover #education {
   font-size: 1.5rem !important;
@@ -347,6 +347,7 @@ svg {
 .skip {
   align-self: center;
   font-size: 16px;
+  margin-top: 15px;
 }
 
 .skip button {
@@ -1455,14 +1456,14 @@ input:-webkit-autofill:active {
   align-items: center;
   width: 10%;
   height: 100%;
-  background-color: #979797;
+  background-color: #db6b67;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
   margin-left: auto;
   z-index: 1;
 }
 
-.skills-coloring {
+/* .skills-coloring {
   animation-name: skills;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
@@ -1477,7 +1478,7 @@ input:-webkit-autofill:active {
   100% {
     background-color: #db6b67;
   }
-}
+} */
 
 .flex-middle-item-3:hover #skills {
   font-size: 1.5rem !important;
@@ -1501,7 +1502,7 @@ input:-webkit-autofill:active {
   align-items: center;
   width: 10%;
   height: 100%;
-  background-color: #979797;
+  background-color: #78a5a3;
   border-left: 1px solid black;
   z-index: 1;
 }
@@ -1513,12 +1514,12 @@ input:-webkit-autofill:active {
   align-items: center;
   width: 80%;
   height: 100%;
-  background-color: #979797;
+  background-color: #e1b16a;
   border-left: 1px solid black;
   z-index: 1;
 }
 
-.contact-me-coloring {
+/* .contact-me-coloring {
   animation-name: contact-me;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
@@ -1533,7 +1534,7 @@ input:-webkit-autofill:active {
   100% {
     background-color: #e1b16a;
   }
-}
+} */
 
 .flex-bottom-item-2:hover #contact-me {
   font-size: 1.5rem !important;
@@ -1550,7 +1551,7 @@ input:-webkit-autofill:active {
   align-items: center;
   width: 10%;
   height: 100%;
-  background-color: #979797;
+  background-color: #e1b16a;
   border-right: 1px solid black;
   z-index: 1;
 }
