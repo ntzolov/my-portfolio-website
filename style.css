@@ -1190,16 +1190,6 @@ svg {
   transition: all 0.3s;
 }
 
-.wordpress {
-  width: fit-content;
-  margin-bottom: 5px;
-  font-size: small;
-  border: 1px solid black;
-  padding: 0 2px;
-  box-shadow: 2px 2px 0 #30353a;
-  transition: all 0.3s;
-}
-
 .lit-html {
   width: fit-content;
   margin-bottom: 5px;
@@ -1211,6 +1201,16 @@ svg {
 }
 
 .pagejs {
+  width: fit-content;
+  margin-bottom: 5px;
+  font-size: small;
+  border: 1px solid black;
+  padding: 0 2px;
+  box-shadow: 2px 2px 0 #e7e7e7;
+  transition: all 0.3s;
+}
+
+.express {
   width: fit-content;
   margin-bottom: 5px;
   font-size: small;
@@ -1278,12 +1278,6 @@ svg {
   box-shadow: none;
 }
 
-.wordpress:hover {
-  background-color: #30353a;
-  color: #ffffff;
-  box-shadow: none;
-}
-
 .lit-html:hover {
   background-color: #2496ed;
   color: #000000;
@@ -1291,6 +1285,12 @@ svg {
 }
 
 .pagejs:hover {
+  background-color: #e7e7e7;
+  color: #000000;
+  box-shadow: none;
+}
+
+.express:hover {
   background-color: #e7e7e7;
   color: #000000;
   box-shadow: none;
