@@ -956,11 +956,13 @@ svg {
 }
 
 .education-card {
+  display: flex;
+  flex-direction: column;
   position: relative;
   background-color: #ffffff2d;
   border: 1px solid #a3c4c2;
   width: 100%;
-  display: block;
+  /* display: block; */
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 20px;
@@ -976,7 +978,7 @@ svg {
 }
 
 .certificate-title h3 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   text-align: center;
   display: block;
   color: #f2f2f2;
@@ -984,6 +986,7 @@ svg {
     1px 2px 1px rgb(49, 49, 49), 1px 3px 1px rgb(132, 128, 128);
   padding: 0 10px;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .certificate-list {
@@ -1000,18 +1003,61 @@ svg {
 }
 
 .certificate-list li::before {
-  content: '\2714';
+  content: '\2705';
   display: inline-block;
   color: black;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .certificate-link {
-  display: block;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 5px;
+  /* display: block; */
+  /* position: absolute; */
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  /* bottom: 5px; */
+  justify-self: center;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.softuni-btn:link,
+.softuni-btn:visited {
+  padding: 7px 14px;
+  background-color: white;
+  border-radius: 5px;
+  color: rgb(196, 122, 35);
+  border: 2px solid white;
+  box-shadow: inset 0px 0px 0px 2px rgb(196, 122, 35);
+}
+
+.softuni-btn:hover {
+  padding: 10px 20px;
+}
+
+.softuni-btn:active {
+  transition: none;
+  background-color: rgb(196, 122, 35);
+  color: white;
+}
+
+.udemy-btn:link,
+.udemy-btn:visited {
+  padding: 7px 14px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  border: 2px solid white;
+  box-shadow: inset 0px 0px 0px 2px black;
+}
+
+.udemy-btn:hover {
+  padding: 10px 20px;
+}
+
+.udemy-btn:active {
+  transition: none;
+  background-color: black;
+  color: white;
 }
 
 .education-btn {
