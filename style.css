@@ -1031,7 +1031,8 @@ svg {
 }
 
 .softuni-btn:hover {
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
+  box-shadow: inset 0px 0px 0px 10px rgb(196, 122, 35);
 }
 
 .softuni-btn:active {
@@ -1051,7 +1052,8 @@ svg {
 }
 
 .udemy-btn:hover {
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
+  box-shadow: inset 0px 0px 0px 10px black;
 }
 
 .udemy-btn:active {
