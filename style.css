@@ -955,6 +955,101 @@ svg {
   cursor: default;
 }
 
+.diploma {
+  display: flex;
+
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-color: #ffffff2d;
+  border: 1px solid #a3c4c2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.diploma-text {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.diploma-text h2 {
+  margin-top: 10px;
+  color: #f2f2f2;
+  text-shadow: 0px 0px 1px rgb(60, 60, 60), 0px 1px 1px rgb(68, 68, 68), 0px 2px 1px rgb(79, 77, 77), 1px 1px 1px rgb(64, 64, 64),
+    1px 2px 1px rgb(49, 49, 49), 1px 3px 1px rgb(132, 128, 128);
+}
+
+.diploma-text p {
+  text-align: center;
+  font-size: 16px;
+  padding: 0 15px;
+  margin-bottom: 5px;
+}
+
+.diploma a {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diploma a img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* SoftUni accordion */
+.education .softuni-details {
+  margin-bottom: 25px;
+  user-select: none;
+}
+
+.education .softuni-details summary {
+  list-style-type: '↓ ';
+  margin-bottom: 15px;
+  background-color: rgb(196, 122, 35);
+  color: white;
+  border: 1px solid #a3c4c2;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.education .softuni-details summary::marker {
+  color: black;
+  font-size: 20px;
+}
+
+/* Udemy accordion */
+.education .udemy-details {
+  margin-bottom: 25px;
+  user-select: none;
+}
+
+.education .udemy-details summary {
+  list-style-type: '↓ ';
+  margin-bottom: 15px;
+  background-color: black;
+  color: white;
+  border: 1px solid #a3c4c2;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.education .udemy-details summary::marker {
+  color: rgb(231, 59, 255);
+  font-size: 20px;
+}
+
+/* Accordion arrow rotate */
+.education details[open] > summary {
+  list-style-type: '↑ ';
+}
+
 .education-card {
   display: flex;
   flex-direction: column;
@@ -2531,5 +2626,11 @@ input:-webkit-autofill:active {
 
   .flex-middle-item-3:hover #skills {
     font-size: 1.2rem !important;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .diploma {
+    flex-direction: column;
   }
 }
