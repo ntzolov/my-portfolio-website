@@ -1050,6 +1050,22 @@ svg {
   list-style-type: '↑ ';
 }
 
+/* Accordion opening animation */
+.education details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .education-card {
   display: flex;
   flex-direction: column;
