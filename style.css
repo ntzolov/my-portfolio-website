@@ -54,13 +54,17 @@ body::after {
   height: 0;
   overflow: hidden;
   z-index: -1;
-  content: url('./images/links/Github.png') url('./images/links/Github_white.png') url('./images/links/Home.png')
-    url('./images/links/Home_white.png') url('./images/links/LinkedIN.png') url('./images/links/LinkedIN_white.png')
-    url('./images/links/Telegram.png') url('./images/links/Telegram_white.png') url('./images/logos/css-logo.png')
-    url('./images/logos/html-logo.png') url('./images/logos/js-logo.png') url('./images/logos/mongo-logo.png')
-    url('./images/logos/node-logo.png') url('./images/logos/react-logo.png') url('./images/logos/vscode-logo.png')
-    url('./images/logos/chai-logo.png') url('./images/logos/jQuery-logo.png') url('./images/logos/mocha-logo.png')
-    url('./images/logos/sass-logo.png') url('./images/logos/typescript-logo.png') url('./images/logos/express-logo.png');
+  content: url('./images/links/Github.png') url('./images/links/Github_white.png')
+    url('./images/links/Home.png') url('./images/links/Home_white.png')
+    url('./images/links/LinkedIN.png') url('./images/links/LinkedIN_white.png')
+    url('./images/links/Telegram.png') url('./images/links/Telegram_white.png')
+    url('./images/logos/css-logo.png') url('./images/logos/html-logo.png')
+    url('./images/logos/js-logo.png') url('./images/logos/mongo-logo.png')
+    url('./images/logos/node-logo.png') url('./images/logos/react-logo.png')
+    url('./images/logos/vscode-logo.png') url('./images/logos/chai-logo.png')
+    url('./images/logos/jQuery-logo.png') url('./images/logos/mocha-logo.png')
+    url('./images/logos/sass-logo.png') url('./images/logos/typescript-logo.png')
+    url('./images/logos/express-logo.png');
 }
 
 ::selection {
@@ -105,7 +109,12 @@ h2 h3 {
   display: flex;
   justify-content: center;
   background: rgb(84, 97, 109);
-  background: linear-gradient(180deg, rgba(84, 97, 109, 1) 0%, rgb(113, 130, 148) 50%, rgba(84, 97, 109, 1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(84, 97, 109, 1) 0%,
+    rgb(113, 130, 148) 50%,
+    rgba(84, 97, 109, 1) 100%
+  );
 }
 
 /* BACKGROUND ANIMATION */
@@ -337,7 +346,8 @@ svg {
 #seconds {
   align-self: center;
   color: rgba(97, 255, 194, 0.664);
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.8), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.8), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
   font-size: clamp(0.5em, 2vw, 1em);
   margin-right: 10px;
   z-index: 0;
@@ -868,8 +878,8 @@ svg {
 .project-card header h3 {
   display: inline-block;
   color: #f2f2f2;
-  text-shadow: 0px 0px 1px rgb(60, 60, 60), 0px 1px 1px rgb(68, 68, 68), 0px 2px 1px rgb(79, 77, 77), 1px 1px 1px rgb(64, 64, 64),
-    1px 2px 1px rgb(49, 49, 49), 1px 3px 1px rgb(132, 128, 128);
+  text-shadow: 0px 0px 1px rgb(60, 60, 60), 0px 1px 1px rgb(68, 68, 68), 0px 2px 1px rgb(79, 77, 77),
+    1px 1px 1px rgb(64, 64, 64), 1px 2px 1px rgb(49, 49, 49), 1px 3px 1px rgb(132, 128, 128);
   padding: 0 10px;
   box-shadow: inset 0 -13px 0 rgb(111, 125, 84);
 }
@@ -978,8 +988,8 @@ svg {
 .diploma-text h2 {
   margin-top: 10px;
   color: #f2f2f2;
-  text-shadow: 0px 0px 1px rgb(60, 60, 60), 0px 1px 1px rgb(68, 68, 68), 0px 2px 1px rgb(79, 77, 77), 1px 1px 1px rgb(64, 64, 64),
-    1px 2px 1px rgb(49, 49, 49), 1px 3px 1px rgb(132, 128, 128);
+  text-shadow: 0px 0px 1px rgb(60, 60, 60), 0px 1px 1px rgb(68, 68, 68), 0px 2px 1px rgb(79, 77, 77),
+    1px 1px 1px rgb(64, 64, 64), 1px 2px 1px rgb(49, 49, 49), 1px 3px 1px rgb(132, 128, 128);
 }
 
 .diploma-text p {
@@ -1093,8 +1103,8 @@ svg {
   text-align: center;
   display: block;
   color: #f2f2f2;
-  text-shadow: 0px 0px 1px rgb(60, 60, 60), 0px 1px 1px rgb(68, 68, 68), 0px 2px 1px rgb(79, 77, 77), 1px 1px 1px rgb(64, 64, 64),
-    1px 2px 1px rgb(49, 49, 49), 1px 3px 1px rgb(132, 128, 128);
+  text-shadow: 0px 0px 1px rgb(60, 60, 60), 0px 1px 1px rgb(68, 68, 68), 0px 2px 1px rgb(79, 77, 77),
+    1px 1px 1px rgb(64, 64, 64), 1px 2px 1px rgb(49, 49, 49), 1px 3px 1px rgb(132, 128, 128);
   padding: 0 10px;
   margin-bottom: 20px;
   margin-top: 10px;
@@ -1241,8 +1251,8 @@ svg {
 
 .skills h2 {
   color: #f2f2f2;
-  text-shadow: 0px 0px 1px rgb(60, 60, 60), 0px 1px 1px rgb(68, 68, 68), 0px 2px 1px rgb(79, 77, 77), 1px 1px 1px rgb(64, 64, 64),
-    1px 2px 1px rgb(49, 49, 49), 1px 3px 1px rgb(132, 128, 128);
+  text-shadow: 0px 0px 1px rgb(60, 60, 60), 0px 1px 1px rgb(68, 68, 68), 0px 2px 1px rgb(79, 77, 77),
+    1px 1px 1px rgb(64, 64, 64), 1px 2px 1px rgb(49, 49, 49), 1px 3px 1px rgb(132, 128, 128);
   text-align: center;
   padding: 0 10px;
   padding-top: 10px;
@@ -1319,6 +1329,16 @@ svg {
   transition: all 0.3s;
 }
 
+.next {
+  width: fit-content;
+  margin-bottom: 5px;
+  font-size: small;
+  border: 1px solid black;
+  padding: 0 2px;
+  box-shadow: 2px 2px 0 black;
+  transition: all 0.3s;
+}
+
 .vscode {
   width: fit-content;
   margin-bottom: 5px;
@@ -1389,6 +1409,16 @@ svg {
   transition: all 0.3s;
 }
 
+.cloudinary {
+  width: fit-content;
+  margin-bottom: 5px;
+  font-size: small;
+  border: 1px solid black;
+  padding: 0 2px;
+  box-shadow: 2px 2px 0 #3448c5;
+  transition: all 0.3s;
+}
+
 .javascript:hover {
   background-color: #efd81d;
   color: #000000;
@@ -1415,6 +1445,12 @@ svg {
 
 .react:hover {
   background-color: #5ed3f3;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.next:hover {
+  background-color: black;
   color: #ffffff;
   box-shadow: none;
 }
@@ -1458,6 +1494,12 @@ svg {
 .typescript:hover {
   background-color: #2d79c7;
   color: #ffffff;
+  box-shadow: none;
+}
+
+.cloudinary:hover {
+  background-color: white;
+  color: #3448c5;
   box-shadow: none;
 }
 
@@ -1527,8 +1569,8 @@ svg {
 
 .contact-form h2 {
   color: #f2f2f2;
-  text-shadow: 0px 0px 1px rgb(60, 60, 60), 0px 1px 1px rgb(68, 68, 68), 0px 2px 1px rgb(79, 77, 77), 1px 1px 1px rgb(64, 64, 64),
-    1px 2px 1px rgb(49, 49, 49), 1px 3px 1px rgb(132, 128, 128);
+  text-shadow: 0px 0px 1px rgb(60, 60, 60), 0px 1px 1px rgb(68, 68, 68), 0px 2px 1px rgb(79, 77, 77),
+    1px 1px 1px rgb(64, 64, 64), 1px 2px 1px rgb(49, 49, 49), 1px 3px 1px rgb(132, 128, 128);
 }
 
 input[type='text'],
