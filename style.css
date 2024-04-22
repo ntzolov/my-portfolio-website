@@ -871,6 +871,12 @@ svg {
   border-bottom: 1px solid black;
 }
 
+.project-image video {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid black;
+}
+
 .project-card header {
   margin-bottom: 8.5px;
 }
@@ -884,6 +890,14 @@ svg {
   box-shadow: inset 0 -13px 0 rgb(111, 125, 84);
 }
 
+.project-card .project-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  justify-self: flex-end;
+}
+
 .project-card .project-technologies-title {
   font-size: 14px;
   color: #e1e1e1;
@@ -891,6 +905,7 @@ svg {
 }
 
 .project-description {
+  height: 100%;
   overflow: auto;
   margin-bottom: 5px;
   padding: 10px;
@@ -1012,12 +1027,12 @@ svg {
 }
 
 /* SoftUni accordion */
-.education .softuni-details {
+.education > .softuni-details {
   margin-bottom: 25px;
   user-select: none;
 }
 
-.education .softuni-details summary {
+.education > .softuni-details > summary {
   list-style-type: '↓ ';
   margin-bottom: 15px;
   background-color: rgb(196, 122, 35);
@@ -1028,18 +1043,18 @@ svg {
   cursor: pointer;
 }
 
-.education .softuni-details summary::marker {
+.education > .softuni-details > summary::marker {
   color: black;
   font-size: 20px;
 }
 
 /* Udemy accordion */
-.education .udemy-details {
+.education > .udemy-details {
   margin-bottom: 25px;
   user-select: none;
 }
 
-.education .udemy-details summary {
+.education > .udemy-details > summary {
   list-style-type: '↓ ';
   margin-bottom: 15px;
   background-color: black;
@@ -1050,8 +1065,32 @@ svg {
   cursor: pointer;
 }
 
-.education .udemy-details summary::marker {
+.education > .udemy-details > summary::marker {
   color: rgb(231, 59, 255);
+  font-size: 20px;
+}
+
+/* Accordion sub */
+
+.certificate-details {
+  margin-bottom: 10px;
+  user-select: none;
+}
+
+.certificate-details summary {
+  list-style-type: '↓ ';
+  /* margin-bottom: 5px; */
+  background-color: transparent;
+  color: white;
+  /* border: 1px solid #a3c4c2; */
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.certificate-details summary::marker {
+  color: black;
   font-size: 20px;
 }
 
