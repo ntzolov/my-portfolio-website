@@ -15,7 +15,9 @@ function myFunc() {
 
   function hideTimer() {
     let timer = document.getElementById('clock');
+    let buttonSkip = document.getElementById('skip');
     timer.style.opacity = 0;
+    buttonSkip.style.cursor = 'auto';
   }
 
   // function colorButtons() {
